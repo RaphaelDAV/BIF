@@ -1,0 +1,61 @@
+body {
+    background-color: #FDECD4;
+    font-family: 'Gloock', serif;
+}
+
+h1 {
+    color: #4D1E10;
+}
+
+.table {
+    background-color: #B8A597;
+    color: #4D1E10;
+}
+
+.table th, .table td {
+    color: #4D1E10;
+}
+
+.table th {
+    background-color: #89220B;
+    color: #FDECD4;
+}
+
+.btn-danger {
+    background-color: #89220B;
+    border-color: #89220B;
+}
+
+.btn-danger:hover {
+    background-color: #4D1E10;
+    border-color: #4D1E10;
+}
+
+.btn-secondary {
+    background-color: #806350;
+    border-color: #806350;
+}
+
+.btn-secondary:hover {
+    background-color: #4D1E10;
+    border-color: #4D1E10;
+}
+
+.btn-primary {
+    background-color: #4D1E10;
+    border-color: #4D1E10;
+}
+
+.btn-primary:hover {
+    background-color: #89220B;
+    border-color: #89220B;
+}
+
+a {
+    color: #4D1E10;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #89220B;
+}

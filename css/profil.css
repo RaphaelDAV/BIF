@@ -1,0 +1,99 @@
+body {
+    background-color: #f4dcc2; /* Couleur de fond douce */
+}
+
+.container-profil h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #5C3921;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px #d2b08f;
+}
+
+.container-profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdecd4;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.info-profil {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 2rem;
+}
+
+.info-profil label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5C3921;
+}
+
+.info-profil input {
+    padding: 10px;
+    border: 2px solid #c1a385;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.info-profil p {
+    font-size: 1.2rem;
+    color: #5C3921;
+    font-weight: bold;
+}
+
+button {
+    background-color: #8A3C2C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b15442;
+}
+
+.details-profil {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1rem;
+    background-color: #FDECD4;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.detail h2 {
+    font-family: 'Gloock', serif;
+    font-size: 1.4rem;
+    color: #5C3921;
+    margin: 0;
+}
+
+.detail p {
+    font-size: 1.5rem;
+    color: #5C3921;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: #f4dcc2; /* Couleur de fond douce */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2rem;
+
+    max-width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+ .container h1 {
+    font-size: 3rem;
+    color: #5C3921;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px #d2b08f;
+}
+
+.container section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #5C3921;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+.container section h2 {
+    font-family: 'Gloock', serif;
+    font-size: 1.6rem;
+    color: #5C3921;
+    margin-bottom: 0.5rem;
+}
+
+.container section p {
+    font-size: 1rem;
+    color: #5C3921;
+    line-height: 1.6;
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: #f4dcc2; /* Couleur de fond douce */
+}
+
+.container-cgu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdecd4;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.container-cgu h1 {
+    font-size: 3rem;
+    color: #5C3921;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px #d2b08f;
+}
+
+.cgu-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #5C3921;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.cgu-section h2 {
+    font-family: 'Gloock', serif;
+    font-size: 1.6rem;
+    color: #5C3921;
+    margin-bottom: 0.5rem;
+}
+
+.cgu-section p {
+    font-size: 1rem;
+    color: #5C3921;
+    line-height: 1.6;
+}

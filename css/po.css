@@ -1,0 +1,108 @@
+body{
+    background-color: #B8A597;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto 2rem auto;
+    border-collapse: collapse;
+    background-color: #FDECD4;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table thead {
+    background-color: #4D1E10;
+    color: white;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.impaye table tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+.compte table tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+a {
+    color: #89220B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.negative-balance {
+    color: red; /* Couleur rouge pour les soldes négatifs */
+}
+
+.header-client {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    background-color: #4D1E10;
+    color: white;
+}
+
+.compte{
+    display: flex;
+    flex-direction: column;
+    background-color: #FDECD4;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 -10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.compte h2{
+    color: #7c624a;
+}
+
+
+
+.nav-item {
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.impaye {
+    background-color: #7c624a;
+    padding: 20px;
+}
+.impaye h2 {
+    color: #FDECD4;
+}
+
+.compte{
+    padding: 20px;
+}
+
+.po h1{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.graphique {
+    height: 100%;
+}
+
+
